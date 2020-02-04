@@ -21,10 +21,10 @@ const factorial = (n, sum = n) =>{
 	sum *= (n - 1);
 	n--;
 
-	factorial(n, sum);
+	return factorial(n, sum);
 };
 
-console.log(factorial(6)); //result is undefined why?
+console.log(factorial(6));
 
 const a = 5 + factorial(3);
 console.log(a);
