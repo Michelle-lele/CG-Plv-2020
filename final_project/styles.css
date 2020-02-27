@@ -1,0 +1,56 @@
+body{
+	padding: 10px;
+	margin: 0px;
+	background-image: url("media/friends.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+#board{
+	margin: auto;
+	width: 700px;
+	height: 700px;
+	
+}
+
+#board div{
+	width: 22.5%;
+	height: 22.5%;
+	float: left;
+	text-align: center;
+	border: 1px solid purple;
+	margin: 5px;
+}
+
+#board div img{
+	width: 100%;
+	display: none;
+}
+
+#board div:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: purple;
+	opacity: 95%;
+}
+
+#new-game{
+	position: ;
+	vertical-align: center;
+	text-align: center;
+	text-transform: uppercase;
+	display: none;
+}
+#start-game{
+	width: 200px;
+	height: 60px;
+	border-style: 1px solid purple;
+	font-family: sans-serif;
+	font-size: 14pt;
+	text-transform: uppercase;
+	color: purple;
+}
+
+#start-game:hover{
+	background-color: purple;
+	color: white;
+}
